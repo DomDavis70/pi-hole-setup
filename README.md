@@ -11,3 +11,5 @@ DHCPv4 Start Address	192.168.1.64
 DHCPv4 End Address	192.168.1.253
 
 ![image](https://github.com/DomDavis70/pi-hole-setup/assets/42983767/f79c1852-161f-425a-8006-1354cff7bcb9)
+
+After installing Docker, I needed to allow it to be run by non-root users using `sudo usermod -aG docker $USER`
